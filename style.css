@@ -2,7 +2,22 @@ body{
     background-color: rgb(232, 243, 36);
 }
 /* Add hover styles */
+
+.interactive {
+   
+    transition: fill 0.3s ease;
+}
+
 .interactive:hover {
     fill: brown;
     cursor: pointer;
+}
+p{
+    position:absolute;
+    align-items: center;
+    justify-self: center;
+    
+    margin-left: 70%;
+    top: 50%;
+    font-size: xx-large;
 }
