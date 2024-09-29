@@ -1,0 +1,8 @@
+body{
+    background-color: rgb(232, 243, 36);
+}
+/* Add hover styles */
+.interactive:hover {
+    fill: brown;
+    cursor: pointer;
+}
